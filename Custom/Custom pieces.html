@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Custom pieces</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+ 
+  <style>
+  #feedback { font-size: 1.4em; }
+  #fabric .ui-selecting { background: #FECA40; }
+  #fabric .ui-selected { background: #F39814; color: white; }
+  #fabric { list-style-type: none; margin: 0; padding: 0; width: 380px; }
+  #fabric li { margin: 3px; padding: 5px; float: left; width: 100px; height: 100px; font-size: 4em; text-align: center; }
+
+  #collar .ui-selecting { background: #FECA40; }
+  #collar .ui-selected { background: #F39814; color: white; }
+  #collar { list-style-type: none; margin: 0; padding: 0; width: 550px; }
+  #collar li { margin: 3px; padding: 5px; float: left; width: 100px; height: 100px; font-size: 4em; text-align: center; }
+
+  .sectionOne {float: left;}
+  .sectionTwo {float: right;}
+  </style>
+  <script>
+  $(function() {
+    $( "#collar" ).selectable();
+  });
+  </script>
+
+  <script>
+  $(function() {
+    $( "#fabric" ).selectable();
+  });
+  </script>
+
+
+</head>
+<body>
+<div class="sectionOne">
+<h1>Collar Style</h1> 
+<ol id="collar">
+  <li class="ui-state-default"><img src="img/classic.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src = "img/band.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/tux.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/cutaway.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/shallow.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/largespread.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/roundedcol.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/eyelet.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/buttondown.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/spread.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/narrow.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src="img/right-curved-arrow (1).png" height="100px" width="100px"></li>
+</ol>
+</div>
+
+<div class="sectionTwo">
+<h1>Select Fabric</h1> 
+<ol id="fabric">
+  <li class="ui-state-active"><img src = "img/fab1.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src = "img/fab2.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src = "img/fab3.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src = "img/fab4.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src = "img/fab5.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src = "img/fab6.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src = "img/fab7.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src = "img/fab8.jpg" height="100px" width="100px"></li>
+  <li class="ui-state-default"><img src = "img/fab9.jpg" height="100px" width="100px"></li>
+</ol>
+</div>
+
+<dropdown>
+  
+
+</body>
+</html>
