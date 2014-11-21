@@ -6,6 +6,39 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>My App</title>
+
+  <!-- Style & script for customiz -->  
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #feedback { font-size: 1.4em; }
+  #fabric .ui-selecting { background: #FECA40; }
+  #fabric .ui-selected { background: #F39814; color: white; }
+  #fabric { list-style-type: none; margin: 0; padding: 0; width: 380px; }
+  #fabric li { margin: 3px; padding: 5px; float: left; width: 100px; height: 100px; font-size: 4em; text-align: center; }
+
+  #collar .ui-selecting { background: #FECA40; }
+  #collar .ui-selected { background: #F39814; color: white; }
+  #collar { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+  #collar li { margin: 5px; padding: 15px 0 0 0; float: left; width: 31%; font-size: 4em; text-align: center; }
+
+  .sectionOne {float: left;}
+  .sectionTwo {float: right;}
+  </style>
+  <script>
+  $(function() {
+    $( "#collar" ).selectable();
+  });
+  </script>
+
+  <script>
+  $(function() {
+    $( "#fabric" ).selectable();
+  });
+  </script>
+
     <!-- Path to Framework7 Library CSS-->
     <link rel="stylesheet" href="../../dist/css/framework7.min.css">
     <!-- Path to your custom app styles-->
@@ -90,9 +123,23 @@
             <div class="page-content">
               <div class="content-block-title">Another plain static view</div>
               <div class="content-block">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel commodo massa, eu adipiscing mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus ultricies dictum neque, non varius tortor fermentum at. Curabitur auctor cursus imperdiet. Nam molestie nisi nec est lacinia volutpat in a purus. Maecenas consectetur condimentum viverra. Donec ultricies nec sem vel condimentum. Phasellus eu tincidunt enim, sit amet convallis orci. Vestibulum quis fringilla dolor.    </p>
-                <p>Mauris commodo lacus at nisl lacinia, nec facilisis erat rhoncus. Sed eget pharetra nunc. Aenean vitae vehicula massa, sed sagittis ante. Quisque luctus nec velit dictum convallis. Nulla facilisi. Ut sed erat nisi. Donec non dolor massa. Mauris malesuada dolor velit, in suscipit leo consectetur vitae. Duis tempus ligula non eros pretium condimentum. Cras sed dolor odio.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel commodo massa, eu adipiscing mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus ultricies dictum neque, non varius tortor fermentum at. Curabitur auctor cursus imperdiet. Nam molestie nisi nec est lacinia volutpat in a purus. Maecenas consectetur condimentum viverra. Donec ultricies nec sem vel condimentum. Phasellus eu tincidunt enim, sit amet convallis orci. Vestibulum quis fringilla dolor.    </p>
+                <div class="sectionOne">
+                  <h1>Collar Style</h1> 
+                  <ol id="collar">
+                    <li class="ui-state-default"><img src="img/classic.jpg"></li>
+                    <li class="ui-state-default"><img src = "img/band.jpg"></li>
+                    <li class="ui-state-default"><img src="img/tux.jpg"></li>
+                    <li class="ui-state-default"><img src="img/cutaway.jpg"></li>
+                    <li class="ui-state-default"><img src="img/shallow.jpg"></li>
+                    <li class="ui-state-default"><img src="img/largespread.jpg"></li>
+                    <li class="ui-state-default"><img src="img/roundedcol.jpg"></li>
+                    <li class="ui-state-default"><img src="img/eyelet.jpg"></li>
+                    <li class="ui-state-default"><img src="img/buttondown.jpg"></li>
+                    <li class="ui-state-default"><img src="img/spread.jpg"></li>
+                    <li class="ui-state-default"><img src="img/narrow.jpg"></li>
+                    <li class="ui-state-default"><img src="img/right-curved-arrow (1).png"></li>
+                  </ol>
+                  </div>
               </div>
             </div>
           </div>
