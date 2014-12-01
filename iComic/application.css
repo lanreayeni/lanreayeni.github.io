@@ -29,10 +29,7 @@ text-decoration: none;
 .submit-button:hover{
 background-color: #339966;
 }
-.icon-space {
-        padding-right: 140px;
-        display: inline-block;
-    }
+
 
 .nav li {
   display: inline;
@@ -45,6 +42,18 @@ margin-top: 0px;
 padding-top: 17px;
 color: #FFFFFF;
 text-align: center;
+/*
+opacity: 0.8;
+filter: alpha(opacity=80);
+*/
+}
+
+.icon-links, .icon-links:hover{
+color: #FFFFFF;
+}
+
+.icon-links:active{
+color: green;
 }
 
 .photo-control-section{  
