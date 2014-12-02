@@ -94,7 +94,7 @@ text-align: center;
   line-height: 100px;
 }
 
-
+/* -----------------------------------------*/
 /*  V I E W E R   P A G E  -  css */
 .share-button{  
 background: #45aa60;
@@ -111,7 +111,6 @@ letter-spacing: 2px;
 background: #333333;
 height: 60px;
 margin-top: 40px;
-
 color: #FFFFFF;
 }
 
@@ -128,4 +127,82 @@ color: #FFFFFF;
   letter-spacing: 2px;
   padding-top: 15px;
   font-weight: normal;
+}
+
+
+/* -----------------------------------------*/
+/*      H O M E   P A G E  -  css     */
+.home-container-fluid{  
+background: #ab0039;
+height: 360px;
+padding: 6px;
+}
+.home-logo{
+  width: 260px;
+  height: 70px;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+
+/*Container User account title and buttons*/
+.user-account{  
+background: #e6e6e6;
+height: 120px;
+margin-top: 40px;
+color: #FFFFFF;
+}
+
+/*Login with & Sign up with button*/
+.title-h1{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333333;
+  padding-top: 20px;
+  letter-spacing: 1px;
+}
+
+#facebook-btn{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 12px;  
+  height: 45px;
+  width: 95%;
+  margin: 0 auto;
+  background: #0066cc;
+  border-radius: 5px;
+}
+
+#facebook-btn:hover{
+  background: #3366cc;
+}
+
+#twitter-btn{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 12px;  
+  height: 45px;
+  width: 95%;
+  margin: 0 auto;
+  background: #3399ff;
+  border-radius: 5px;
+}
+#twitter-btn:hover{
+  background: #6699ff;
+}
+
+
+.login-button{  
+background: #45aa60;
+height: 80px;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+padding-top: 20px;
+color: #FFFFFF;
+text-align: center;
+font-size: 2.2em;
+letter-spacing: 2px;
+text-transform: uppercase;
 }
