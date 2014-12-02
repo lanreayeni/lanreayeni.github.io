@@ -77,6 +77,10 @@ text-align: center;
   display: none;
 }
 
+#tumbnail{
+  margin: 10px;
+}
+
 .snap-button{
   width: 80px;
   height: 80px;
@@ -84,4 +88,8 @@ text-align: center;
   background: #333333;
   border-radius: 100%;
   border: solid #45aa60 4px;
+}
+
+.camera-switch{
+  line-height: 100px;
 }
