@@ -16,7 +16,7 @@ padding: 6px;
 .nav a {
   color: #ffffff;
   font-size: 1.5em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -99,7 +99,7 @@ text-align: center;
 .share-button{  
 background: #45aa60;
 height: 80px;
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Dosis', Arial, Helvetica, sans-serif;
 padding-top: 20px;
 color: #FFFFFF;
 text-align: center;
@@ -124,7 +124,7 @@ color: #FFFFFF;
 #location-name{
   text-align: left;
   font-size: 1.2em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   padding-top: 20px;
   font-weight: normal;
 }
