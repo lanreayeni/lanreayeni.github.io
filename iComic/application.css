@@ -98,9 +98,9 @@ text-align: center;
 /*  V I E W E R   P A G E  -  css */
 .share-button{  
 background: #45aa60;
-height: 120px;
+height: 80px;
 font-family: Arial, Helvetica, sans-serif;
-padding-top: 30px;
+padding-top: 10px;
 color: #FFFFFF;
 text-align: center;
 font-size: 3em;
@@ -110,7 +110,7 @@ letter-spacing: 2px;
 .location-col{  
 background: #333333;
 height: 60px;
-margin-top: 0px;
+margin-top: 40px;
 
 color: #FFFFFF;
 }
