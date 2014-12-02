@@ -6,7 +6,7 @@
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
-<title>iComic</title>
+<title>iComic - Viewer</title>
 
   <link rel="stylesheet" href="application.css">
   <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
@@ -20,7 +20,7 @@
       </ul>
         
       <ul class="pull-right">
-        <li><a href="viewer.html">Next</a></li>
+        <li><a href="#"><i class="fa fa-chevron-down"></i></a></li>
       </ul>
     </div>
   </div>
@@ -53,33 +53,14 @@
   <!-- inject:js -->
   <!-- endinject -->
   
-<div class="edit-tools-section">
-    <div class="col-xs-4"><a href="#" class="icon-links"><i class="fa fa-adjust fa-2x"></i>
-      <div></a>
-        <input type="range" id="brightness" name="brighness" min="0" max="100" >
-        <label for="brighness"></label>
-      </div>
-    </div>
-
-    <div class="col-xs-4"> <i class="fa fa-comment fa-2x"></i></div>
-    <div class="col-xs-4"><i class="fa fa-location-arrow fa-2x"></i></div>  
+<div class="location-col">
+    <div class="col-xs-2"><div id="location-icon"><i class="fa fa-location-arrow fa-2x"></i></div></div>
+    <div class="col-xs-10"><p id="location-name">1 Location goes, Here</p></div>  
 </div>
  
 
-<div class="photo-control-section">
-    <div class="col-xs-4">
-      <div class="image-upload">
-        <label for="file-input">
-         <img src="IMG_2288.JPG" id="tumbnail" width="60px" height="60px">
-        </label>
-
-        <input id="file-input" type="file"/>
-      </div>
-    </div>
-    <div class="col-xs-4"><div class="snap-button"></div></div>
-    <div class="col-xs-4"><div class="camera-switch">
-      <i class="fa fa-camera fa-3x"></i></div>
-      </div>  
+<div class="share-button">
+ <i class="fa fa-share-alt fa-1x"></i> Share
 </div>
 </body>
 </html>

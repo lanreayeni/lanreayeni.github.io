@@ -19,22 +19,19 @@ padding: 6px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  
 }
+
 .nav a:hover{
 color: #ffffff;
 text-decoration: none;
 }
 
-.submit-button:hover{
-background-color: #339966;
-}
-
-
 .nav li {
   display: inline;
   padding: 8px;
 }
+
+/* Picture edit tools: Brightness, comment, location etc... */
 .edit-tools-section{  
 background: #3B9151;
 height: 60px;
@@ -48,6 +45,7 @@ filter: alpha(opacity=80);
 */
 }
 
+/* Links to Picture tools icons*/
 .icon-links, .icon-links:hover{
 color: #FFFFFF;
 }
@@ -56,6 +54,7 @@ color: #FFFFFF;
 color: green;
 }
 
+/* Camera and photo source control section */
 .photo-control-section{  
 background: #e7e7e7;
 height: 140px;
@@ -64,6 +63,7 @@ color: #333333;
 text-align: center;
 }
 
+/* Range input for brighness icon */
 #brightness{
   width: 95%;
   height: 20px;
@@ -92,4 +92,39 @@ text-align: center;
 
 .camera-switch{
   line-height: 100px;
+}
+
+
+/*  V I E W E R   P A G E  -  css */
+.share-button{  
+background: #45aa60;
+height: 120px;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 30px;
+color: #FFFFFF;
+text-align: center;
+font-size: 3em;
+letter-spacing: 2px;
+}
+
+.location-col{  
+background: #333333;
+height: 60px;
+margin-top: 0px;
+
+color: #FFFFFF;
+}
+
+#location-icon{
+  text-align: left;
+  padding-top: 17px;
+  padding-left: 8px; 
+}
+
+#location-name{
+  text-align: left;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 15px;
+  font-weight: normal;
 }
