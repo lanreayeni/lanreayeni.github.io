@@ -161,9 +161,11 @@ color: #FFFFFF;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
   text-transform: uppercase;
+  font-weight: bold;
   text-align: center;
   color: #333333;
-  padding-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
   letter-spacing: 1px;
 }
 
