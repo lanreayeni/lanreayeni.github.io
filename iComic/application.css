@@ -200,7 +200,20 @@ color: #FFFFFF;
   background: #6699ff;
 }
 
-
+#phone-btn{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 12px;  
+  height: 45px;
+  width: 100%;
+  margin: 0 auto;
+  background: #0099ff;
+  border-radius: 5px;
+}
+#phone-btn:hover{
+  background: #0066ff;
+}
 .login-button{  
   background: #45aa60;
   height: 80px;
