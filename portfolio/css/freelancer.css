@@ -452,6 +452,7 @@ footer .footer-below {
 .linkedIn, .linkedIn:hover {
     outline: 0;
     color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .skills {
