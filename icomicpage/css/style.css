@@ -343,7 +343,7 @@ header .carousel-indicators li {
 
 .features{
 	overflow: hidden;
-	padding: 150px 0px 90px 0px;
+	padding: 150px 0px 100px 0px;
 	min-height: 400px;
 	color: black;
 }
@@ -351,7 +351,7 @@ header .carousel-indicators li {
 .features p {
 	font-weight: 340;
 	letter-spacing: 1px;
-	padding-bottom: 60px;
+	padding-bottom: 50px;
 }
 
 .features h2{
